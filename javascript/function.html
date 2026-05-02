@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+
+let userDestails = function (userName,password) {
+
+           
+          
+           console.log("This is functional Expression");
+           return userName+" "+password
+
+
+        }
+    let result = userDestails("bharat@0723","roy")
+    console.log(result);
+    console.log(userDestails("roy","bharath")); 
+    
+
+    //normal function
+    function employeeDetails(name,role,salary,address){
+       // console.log("this is Normal Fnction..");
+        
+       // console.log("Name:", name);
+       // console.log("Role:",role);
+       // console.log("Salary:",salary);
+       // console.log("Address:",address);
+       return [name, role, salary, address]
+    }
+
+     let emp1=employeeDetails("bharat","developer",2323,"kochi")
+     console.log(emp1);
+    
+
+     // immediate invoking function/self caling function
+     
+     
+
+     (function(){
+
+        let apiKey=""
+        console.log("This is immediate invoking function");
+     }
+
+     ) ()
+
+    //genertaor function
+
+    function* generator(){
+        console.log("This is generator");
+
+    }
+generator().next()
+// nextGen.next()
+
+
+
+
+    
+    </script>
+</body>
+</html>

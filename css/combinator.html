@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       ol+ h1{
+            color: skyblue;
+            background-color:  palevioletred;
+
+            
+        }
+         /* child selector  */
+         h4>p{
+       
+        background-color:  magenta;
+        color: pink;
+       }
+       /* child select:used to target direct child */
+       ol>li{
+        margin: 20px;
+        background-color: aquamarine;
+
+       }
+       body>h1:first-child{
+        background-color: crimson;
+       }o
+       /* decendant selector:used to target direct or indirect */
+       ul p{
+        background-color: darkblue;
+       }
+       /* general sibling selector: used to select dircet or indirect adjacent elements */
+       ol~h1{
+        background-color: violet;
+       }
+       
+       
+    </style>
+
+    
+</head>
+<body>
+   <h1>ORDER LIST</h1>
+   <ol> 
+    <li>List-1</li>
+    <li>List-2</li>
+    <li>List-3</li>
+    <li>List-4</li>
+   </ol>
+   <h1>UNORDERED LIST</h1>
+   <ul>
+    <li>
+       <h4>This is paragrap presnt in unordered list</h4></li>
+    <li>unorder list items</li>
+    <li>unorder list items</li>
+    <li>unorder list items</li>
+   </ul>
+   <h1>Heading in 3rd postion</h1>
+   <h3>
+    <h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptates distinctio. Perferendis iure, repellat eaque, itaque laboriosam voluptate distinctio placeat aspernatur alias velit perspiciatis, ipsum consequuntur nesciunt libero atque voluptatem.
+        </p>
+    </h4>
+    
+   
+</body>
+</html>

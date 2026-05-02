@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{ 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200vh;
+            background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Barbie_Logo.svg/1280px-Barbie_Logo.svg.png) ;}
+            fieldset{
+backdrop-filter: blur(50px);
+border-radius: 50px;
+padding: 50px;
+           }
+    </style>
+
+</head>
+
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <h1>Appliation form</h1>
+            <label for="">first name:</label>
+            <input type="text" maxlength="8" minlength="4" required placeholder="enter first name">
+            <br><br>
+            <label for="lname">last name:</label>
+            <input type="text" id="lname" placeholder="enter last name" minlength="4" maxlength="6">
+            <br><br>
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="enter email">
+            <br><br>
+            <label for="phno">phno:</label>
+            <input type="tel" pattern="[6-9]{1}[0-9]{9}" id="phno" required placeholder="+91">
+            <br><br>
+            
+            <label for="state">state</label>
+            <select name="" id="state">
+                <option value="Ap">AP</option>
+                <option value="ka">ka</option>
+                <option value="up">up</option>
+                <option value="TL">TL</option>
+            </select>
+            <br><br>
+            <label for="address">address:</label>
+
+            
+            <textarea name="" id="address" rows="3" coloumn="20" placeholder="enter full address"></textarea>
+            <br><br>
+            <label for="skills">
+            
+            
+            
+<label for="skills">Skills</label>
+        <input type="checkbox" name="skills" id="nodejs" value="Nodejs"><label for="nodejs">Nodejs</label>
+        <input type="checkbox" name="skills" id="reactjs" value="Reactjs"><label for="reactjs">Reactjs</label>
+        <input type="checkbox" name="skills" id="git" value="Git"><label for="git">Git</label>
+        <input type="checkbox" name="skills" id="mangodb" value="MangoDB"><label for="mangodb">MangoDB</label>
+        <input type="checkbox" name="skills" id="angularjs" value="AngularJs"><label for="angularjs">AngularJs</label>
+
+        <br><br>
+        <label>Languages: </label><br>
+        <label for="english">English:</label>
+        <input type="range" class="lang-range" id="english" name="english" min="0" max="100" value="0">
+        <label for="kannada">Kannada:</label>
+        <input type="range" class="lang-range" id="kannada" name="kannada" min="0" max="100" value="0">
+        <label for="telugu">Telugu:</label>
+        <input type="range" class="lang-range" id="telugu" name="telugu" min="0" max="100" value="0"><br><br>
+
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx"><br><br>
+         <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+
+
+
+
+
+
+            <button type="submit">submit</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>

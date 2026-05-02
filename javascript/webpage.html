@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <input type="text" placeholder="Product name" id="product No">
+    <input type="url" placeholder=" Image url" >
+   <input type="number" placeholder="Price" id="price">
+   <button type="submit" onclick="displayinput">Add product</button>
+   <table>
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Product price</th>
+            <th>Image price</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+   </table>
+ <script>
+    fuction addproduct({
+        let productName=document.getelementsByid("productName");
+        let url=document.getElementById("url").value;
+        let productPrice=document.getElementById("price").value;
+        let productDetails={
+            name: productName,
+            Price: productPrice,
+            Image: url
+
+
+        }
+
+    })
+ </script>
+
+
+
+
+</header>  
+
+</body>
+</html>

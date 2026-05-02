@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let obj={
+            rollNumber:'23NR1A0506',
+            skills:['html','css','java'],
+            address:{
+                city:"vizag",
+                zipcode:562013
+            }
+        }
+        console.log(obj);
+    console.log(obj.name);
+    console.log(obj.address.city);
+    console.log(obj.skills[0]);
+
+
+    console.log(Object.keys(obj));
+    console.log(Object.values(obj));
+    console.log(Object.entries(obj));
+
+    obj.name="Bharat";
+    obj.course='B.tech'
+    delete obj.address;
+    console.log(obj);
+    
+
+    console.log(Object.isSealed);
+
+    delete obj.name;//N
+
+    obj.rollNumber='Hu2026'//N
+    obj.age=25;//N
+    console.log(obj);
+    Object.freeze(obj);
+    console.log(Object isFrozen)
+    bj.rollNumber='Hu2027'
+    obj.age=25;//N
+    console.log(obj);
+
+
+
+    window.console.log("HELLO")
+    </script>
+</body>
+</html>
