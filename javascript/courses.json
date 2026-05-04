@@ -1,0 +1,14 @@
+[
+    {
+        "name":"java Fullstack",
+        "duration":"6months",
+        "fees":"6500",
+        "topics":["core java","jdbc","hibernates","servlets","spring MVC","spring Boot","spring Microservices"],
+        "poster":""
+    },{
+        "name":"MERN",
+        "duration":"5 Months",
+        "fees":6200,
+        "topics":["HTML","CSS","JS","Node and epress Js","MongoDB","react","angular JS"]
+    }
+]
